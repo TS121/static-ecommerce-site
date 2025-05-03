@@ -23,11 +23,52 @@ body {
   }
   
   nav ul {
-    list-style-type: none;
-    margin: 0;
+    list-style: none;
     padding: 0;
+    margin: 0;
     display: flex;
     gap: 1rem;
+  }
+  
+  nav ul li {
+    position: relative;
+  }
+
+  nav ul li a {
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+  }
+
+  nav ul li .dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    z-index: 1000;
+  }
+
+  nav ul li .dropdown-menu li {
+    border-bottom: 1px solid #ddd;
+  }
+
+  nav ul li .dropdown-menu li a {
+    padding: 10px 15px;
+    display: block;
+    color: #333;
+  }
+
+  nav ul li .dropdown-menu li a:hover {
+    background-color: #f4f4f4;
+  }
+
+  nav ul li:hover .dropdown-menu {
+    display: block;
   }
   
   nav a {

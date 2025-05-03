@@ -11,7 +11,14 @@
     <h1>Product Showcase</h1>
     <nav>
       <ul>
-        <li><a href="#products">Products</a></li>
+        <li class="dropdown">
+          <a href="#products">Products</a>
+          <ul class="dropdown-menu">
+            <li><a href="#product1">Product 1</a></li>
+            <li><a href="#product2">Product 2</a></li>
+            <!-- Add more products as needed -->
+          </ul>
+        </li>
         <li><a href="#about">About</a></li>
       </ul>
     </nav>
@@ -25,12 +32,12 @@
     <section id="products">
       <h2>Our Products</h2>
       <div class="product-grid">
-        <div class="product">
+        <div id="product1" class="product">
           <img src="images/product1.jpg" alt="Product 1" />
           <h3>Product 1</h3>
           <p>$19.99</p>
         </div>
-        <div class="product">
+        <div id="product2" class="product">
           <img src="images/product2.jpg" alt="Product 2" />
           <h3>Product 2</h3>
           <p>$29.99</p>
