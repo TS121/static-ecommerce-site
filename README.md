@@ -54,6 +54,13 @@ Every time I push to the `main` branch, GitHub Actions uploads my files to my pr
 
 ---
 
+
+## 🔗 Links & Portfolio Use
+
+- 🌍 **Live Site**: https://d16pke5pd1kkvv.cloudfront.net
+- 💻 **GitHub Repo**: https://github.com/TS121/static-ecommerce-site.git
+
+
 ## 📬 Contact
 
 If you'd like to connect or have questions about this project, feel free to reach out on GitHub.
