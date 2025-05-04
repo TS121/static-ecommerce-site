@@ -52,8 +52,8 @@ Every time I push to the `main` branch, GitHub Actions uploads my files to my pr
 │   ├── play.jpg
 │   └── xbox.jpg
 └── .github/
-└── workflows/
-└── deploy.yml
+    └── workflows/
+        └── deploy.yml
 ```
 
 ---
