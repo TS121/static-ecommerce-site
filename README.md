@@ -20,7 +20,7 @@ A clean, responsive product showcase website built with HTML and CSS — securel
 
 ## 🛠️ Technologies Used
 
-- HTML5 + CSS3
+- HTML + CSS
 - Git + GitHub
 - GitHub Actions
 - Amazon S3 (storage)
