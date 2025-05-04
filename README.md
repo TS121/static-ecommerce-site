@@ -28,6 +28,13 @@ A clean, responsive product showcase website built with HTML and CSS — securel
 
 ---
 
+## 📚 What I Learned
+
+- How to build a static responsive site from scratch
+- How to use Git and GitHub effectively for version control
+- How to automate deployments using GitHub Actions
+- How to securely host a website on AWS S3 with CloudFront and IAM
+
 ## 🚀 How Deployment Works
 
 Every time I push to the `main` branch, GitHub Actions uploads my files to my private S3 bucket, and CloudFront instantly delivers the latest version securely to the web.
