@@ -4,6 +4,7 @@ A clean, responsive product showcase website built with HTML and CSS — securel
 
 > 📦 Live Demo: https://d16pke5pd1kkvv.cloudfront.net
 
+![Screenshot of site](images/screenshot.png)
 ---
 
 ## ✨ Features
